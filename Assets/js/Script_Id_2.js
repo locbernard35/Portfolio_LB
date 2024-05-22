@@ -1,0 +1,1 @@
+let e=document.querySelector("#js-bt-1");e.addEventListener("click",function(){let e=document.querySelector("#header-M_e2-G");"block"==e.style.display?e.style.display="none":e.style.display="block"});
