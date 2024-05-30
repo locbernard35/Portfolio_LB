@@ -12,9 +12,9 @@ form.addEventListener("submit", e => {
 
 function sendEmail(name,email,message){
   Email.send({      
-    Host: "", 
-    Username: "",
-    Password: "",    
+    Host: "smtp.elasticemail.com", 
+    Username: "xatia@live.fr",
+    Password: "5CD47B689CE2C079CBC05C63B48F5B21D473",    
     To: "xatia@live.fr",
     From: "xatia@live.fr",
     Subject: `${name} MyPortfolio Website`,
